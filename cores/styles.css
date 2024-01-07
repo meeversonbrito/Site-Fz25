@@ -1,0 +1,695 @@
+.corpo-cores {
+    display: flex;
+    width: 100vw;
+    margin-top: 18vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.corpo-cores .box-azul {
+    overflow: hidden;
+    display: flex;
+    width: 90vw;
+    height: 45vh;
+    border-radius: 2vw;
+    background-color: white;
+    box-shadow: 0 1vw 1vw rgb(214, 214, 214);
+    border: 0.1vw solid blue;
+    transition: 3s ease-in-out;
+}
+
+.corpo-cores .box-azul:hover {
+    width: 35vw;
+    height: 45vh;
+    scale: 130%;
+    transition: 10s ease-in-out;
+}
+
+.corpo-cores .box-azul .bg{
+    width: 90vw;
+    height: 45vh;
+    border-radius: 2vw;
+    background-color: blue;
+    transform: translateX(45vw);
+    transition: 3s ease-in-out;
+}
+
+.corpo-cores .box-azul:hover .bg{
+    transform: translateX(0);
+    transition: 10s ease-in-out;
+}
+
+.corpo-cores .box-azul .texto {
+    margin-top: -2vh;
+    position: absolute;
+    margin-left: 5vw;
+    flex-direction: column;
+    display: flex;
+    max-width: 23vw;
+    transition: 3s ease-in-out;
+}
+
+.corpo-cores .box-azul:hover .texto{
+    opacity: 0%;
+    transition: 10s ease-in-out;
+}
+
+.corpo-cores .box-azul .texto .buttom {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7vw;
+    border-radius: 0.3vw;
+    margin-left: 1vw;
+    margin-top: 36vh;
+    border: 2px solid blue;
+    width: 15vw;
+    height: 3vh;
+    color: blue;
+    font-weight: 600;
+    transition: 0.5s ease-out;
+}
+
+.corpo-cores .box-azul .texto .buttom:hover {
+    background-color: blue;
+    font-weight: 800;
+    color: white;
+    font-size: 0.8vw;
+    width: 16vw;
+    height: 4vh;
+    transition: 0.5s ease-out;
+}
+
+.corpo-cores .box-azul .texto h1 {
+    position: absolute;
+    font-size: 4vw;
+    font-weight: 900;
+    color: blue;
+}
+
+.corpo-cores .box-azul .texto h3 {
+    margin-top: 17vh;
+    width: 40;
+    font-size: 0.9vw;
+    font-weight: 400;
+}
+
+.corpo-cores .box-azul .imagem {
+    position: absolute;
+    display: flex;
+    margin-left: 50vw;
+    height: 45vh;
+}
+
+.corpo-cores .box-azul .imagem img {
+    width: 32vw;
+    margin-top: -0.3vh;
+    z-index: 1;
+    transition: 3s ease-in-out;
+}
+
+.corpo-cores .box-azul:hover .imagem img {
+    transform: translateX(-48vw);
+    transition: 10s ease-in-out;
+}
+
+.corpo-cores .box-azul .imagem .icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 45vh;
+    width: 30vw;
+    position: absolute;
+    z-index: 0;
+    font-size: 28vw;
+    margin-left: 0.1vw;
+    color: white;
+}
+
+.corpo-cores .box-azul .imagem .icone i{
+    animation: i-box 10s linear infinite;
+}
+
+@keyframes i-box {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+.corpo-cores .box-vermelho {
+    overflow: hidden;
+    display: flex;
+    margin-top: 17vh;
+    width: 90vw;
+    height: 45vh;
+    border-radius: 2vw;
+    background-color: white;
+    box-shadow: 0 1vw 1vw rgb(214, 214, 214);
+    border: 0.1vw solid red;
+    transition: 3s ease-in-out;
+}
+
+.corpo-cores .box-vermelho:hover {
+    width: 35vw;
+    height: 45vh;
+    scale: 130%;
+    transition: 10s ease-in-out;
+}
+
+.corpo-cores .box-vermelho .bg{
+    width: 90vw;
+    height: 45vh;
+    border-radius: 2vw;
+    background-color: red;
+    transform: translateX(45vw);
+    transition: 3s ease-in-out;
+}
+
+.corpo-cores .box-vermelho:hover .bg{
+    transform: translateX(0);
+    transition: 10s ease-in-out;
+}
+
+.corpo-cores .box-vermelho .texto {
+    margin-top: -2vh;
+    position: absolute;
+    margin-left: 5vw;
+    flex-direction: column;
+    display: flex;
+    max-width: 23vw;
+    transition: 3s ease-in-out;
+}
+
+.corpo-cores .box-vermelho:hover .texto{
+    opacity: 0%;
+    transition: 10s ease-in-out;
+}
+
+.corpo-cores .box-vermelho .texto .buttom {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7vw;
+    border-radius: 0.3vw;
+    margin-left: 1vw;
+    margin-top: 36vh;
+    border: 2px solid red;
+    width: 15vw;
+    height: 3vh;
+    color: red;
+    font-weight: 600;
+    transition: 0.5s ease-out;
+}
+
+.corpo-cores .box-vermelho .texto .buttom:hover {
+    background-color: red;
+    font-weight: 800;
+    color: white;
+    font-size: 0.8vw;
+    width: 16vw;
+    height: 4vh;
+    transition: 0.5s ease-out;
+}
+
+.corpo-cores .box-vermelho .texto h1 {
+    position: absolute;
+    font-size: 4vw;
+    font-weight: 900;
+    color: red;
+}
+
+.corpo-cores .box-vermelho .texto h3 {
+    margin-top: 17vh;
+    width: 40;
+    font-size: 0.9vw;
+    font-weight: 400;
+}
+
+.corpo-cores .box-vermelho .imagem {
+    position: absolute;
+    display: flex;
+    margin-left: 50vw;
+    height: 45vh;
+}
+
+.corpo-cores .box-vermelho .imagem img {
+    width: 32vw;
+    margin-top: -0.3vh;
+    z-index: 1;
+    transition: 3s ease-in-out;
+}
+
+.corpo-cores .box-vermelho:hover .imagem img {
+    transform: translateX(-48vw);
+    transition: 10s ease-in-out;
+}
+
+.corpo-cores .box-vermelho .imagem .icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 45vh;
+    width: 30vw;
+    position: absolute;
+    z-index: 0;
+    font-size: 28vw;
+    margin-left: 0.1vw;
+    color: white;
+}
+
+.corpo-cores .box-vermelho .imagem .icone i{
+    animation: i-box 10s linear infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+.corpo-cores .box-rosa {
+    overflow: hidden;
+    display: flex;
+    margin-top: 17vh;
+    width: 90vw;
+    height: 45vh;
+    border-radius: 2vw;
+    background-color: white;
+    box-shadow: 0 1vw 1vw rgb(214, 214, 214);
+    border: 0.1vw solid palevioletred;
+    transition: 3s ease-in-out;
+}
+
+.corpo-cores .box-rosa:hover {
+    width: 35vw;
+    height: 45vh;
+    scale: 130%;
+    transition: 10s ease-in-out;
+}
+
+.corpo-cores .box-rosa .bg{
+    width: 90vw;
+    height: 45vh;
+    border-radius: 2vw;
+    background-color: palevioletred;
+    transform: translateX(45vw);
+    transition: 3s ease-in-out;
+}
+
+.corpo-cores .box-rosa:hover .bg{
+    transform: translateX(0);
+    transition: 10s ease-in-out;
+}
+
+.corpo-cores .box-rosa .texto {
+    margin-top: -2vh;
+    position: absolute;
+    margin-left: 5vw;
+    flex-direction: column;
+    display: flex;
+    max-width: 23vw;
+    transition: 3s ease-in-out;
+}
+
+.corpo-cores .box-rosa:hover .texto{
+    opacity: 0%;
+    transition: 10s ease-in-out;
+}
+
+.corpo-cores .box-rosa .texto .buttom {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7vw;
+    border-radius: 0.3vw;
+    margin-left: 1vw;
+    margin-top: 36vh;
+    border: 2px solid palevioletred;
+    width: 15vw;
+    height: 3vh;
+    color: palevioletred;
+    font-weight: 600;
+    transition: 0.5s ease-out;
+}
+
+.corpo-cores .box-rosa .texto .buttom:hover {
+    background-color: palevioletred;
+    font-weight: 800;
+    color: white;
+    font-size: 0.8vw;
+    width: 16vw;
+    height: 4vh;
+    transition: 0.5s ease-out;
+}
+
+.corpo-cores .box-rosa .texto h1 {
+    position: absolute;
+    font-size: 4vw;
+    font-weight: 900;
+    color: palevioletred;
+}
+
+.corpo-cores .box-rosa .texto h3 {
+    margin-top: 17vh;
+    width: 40;
+    font-size: 0.9vw;
+    font-weight: 400;
+}
+
+.corpo-cores .box-rosa .imagem {
+    position: absolute;
+    display: flex;
+    margin-left: 50vw;
+    height: 45vh;
+}
+
+.corpo-cores .box-rosa .imagem img {
+    width: 32vw;
+    margin-top: -0.3vh;
+    z-index: 1;
+    transition: 3s ease-in-out;
+}
+
+.corpo-cores .box-rosa:hover .imagem img {
+    transform: translateX(-48vw);
+    transition: 10s ease-in-out;
+}
+
+.corpo-cores .box-rosa .imagem .icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 45vh;
+    width: 30vw;
+    position: absolute;
+    z-index: 0;
+    font-size: 28vw;
+    margin-left: 0.1vw;
+    color: white;
+}
+
+.corpo-cores .box-rosa .imagem .icone i{
+    animation: i-box 10s linear infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+.corpo-cores .box-preto {
+    overflow: hidden;
+    display: flex;
+    margin-top: 17vh;
+    width: 90vw;
+    height: 45vh;
+    border-radius: 2vw;
+    background-color: white;
+    box-shadow: 0 1vw 1vw rgb(214, 214, 214);
+    border: 0.1vw solid rgb(54, 54, 54);
+    transition: 3s ease-in-out;
+}
+
+.corpo-cores .box-preto:hover {
+    width: 35vw;
+    height: 45vh;
+    scale: 130%;
+    transition: 10s ease-in-out;
+}
+
+.corpo-cores .box-preto .bg{
+    width: 90vw;
+    height: 45vh;
+    border-radius: 2vw;
+    background-color: rgb(54, 54, 54);
+    transform: translateX(45vw);
+    transition: 3s ease-in-out;
+}
+
+.corpo-cores .box-preto:hover .bg{
+    transform: translateX(0);
+    transition: 10s ease-in-out;
+}
+
+.corpo-cores .box-preto .texto {
+    margin-top: -2vh;
+    position: absolute;
+    margin-left: 5vw;
+    flex-direction: column;
+    display: flex;
+    max-width: 23vw;
+    transition: 3s ease-in-out;
+}
+
+.corpo-cores .box-preto:hover .texto{
+    opacity: 0%;
+    transition: 10s ease-in-out;
+}
+
+.corpo-cores .box-preto .texto .buttom {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7vw;
+    border-radius: 0.3vw;
+    margin-left: 1vw;
+    margin-top: 36vh;
+    border: 2px solid rgb(54, 54, 54);
+    width: 15vw;
+    height: 3vh;
+    color: rgb(54, 54, 54);
+    font-weight: 600;
+    transition: 0.5s ease-out;
+}
+
+.corpo-cores .box-preto .texto .buttom:hover {
+    background-color: rgb(54, 54, 54);
+    font-weight: 800;
+    color: white;
+    font-size: 0.8vw;
+    width: 16vw;
+    height: 4vh;
+    transition: 0.5s ease-out;
+}
+
+.corpo-cores .box-preto .texto h1 {
+    position: absolute;
+    font-size: 4vw;
+    font-weight: 900;
+    color: rgb(54, 54, 54);
+}
+
+.corpo-cores .box-preto .texto h3 {
+    margin-top: 17vh;
+    width: 40;
+    font-size: 0.9vw;
+    font-weight: 400;
+}
+
+.corpo-cores .box-preto .imagem {
+    position: absolute;
+    display: flex;
+    margin-left: 50vw;
+    height: 45vh;
+}
+
+.corpo-cores .box-preto .imagem img {
+    width: 32vw;
+    margin-top: -0.3vh;
+    z-index: 1;
+    transition: 3s ease-in-out;
+}
+
+.corpo-cores .box-preto:hover .imagem img {
+    transform: translateX(-48vw);
+    transition: 10s ease-in-out;
+}
+
+.corpo-cores .box-preto .imagem .icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 45vh;
+    width: 30vw;
+    position: absolute;
+    z-index: 0;
+    font-size: 28vw;
+    margin-left: 0.1vw;
+    color: white;
+}
+
+.corpo-cores .box-preto .imagem .icone i{
+    animation: i-box 10s linear infinite;
+}
+
+
+
+
+
+
+
+
+
+.corpo-cores .box-branco {
+    overflow: hidden;
+    display: flex;
+    margin-top: 17vh;
+    width: 90vw;
+    height: 45vh;
+    border-radius: 2vw;
+    background-color: black;
+    box-shadow: 0 1vw 1vw rgb(214, 214, 214);
+    border: 0.1vw solid rgb(54, 54, 54);
+    transition: 3s ease-in-out;
+}
+
+.corpo-cores .box-branco:hover {
+    width: 35vw;
+    height: 45vh;
+    scale: 130%;
+    transition: 10s ease-in-out;
+}
+
+.corpo-cores .box-branco .bg{
+    width: 90vw;
+    height: 45vh;
+    border-radius: 2vw;
+    background-color: white;
+    transform: translateX(45vw);
+    transition: 3s ease-in-out;
+}
+
+.corpo-cores .box-branco:hover .bg{
+    transform: translateX(0);
+    transition: 10s ease-in-out;
+}
+
+.corpo-cores .box-branco .texto {
+    margin-top: -2vh;
+    position: absolute;
+    margin-left: 5vw;
+    flex-direction: column;
+    display: flex;
+    max-width: 23vw;
+    transition: 3s ease-in-out;
+}
+
+.corpo-cores .box-branco:hover .texto{
+    opacity: 0%;
+    transition: 10s ease-in-out;
+}
+
+.corpo-cores .box-branco .texto .buttom {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7vw;
+    border-radius: 0.3vw;
+    margin-left: 1vw;
+    margin-top: 36vh;
+    border: 2px solid white;
+    width: 15vw;
+    height: 3vh;
+    color: white;
+    font-weight: 600;
+    transition: 0.5s ease-out;
+}
+
+.corpo-cores .box-branco .texto .buttom:hover {
+    background-color: white;
+    font-weight: 800;
+    color: black;
+    font-size: 0.8vw;
+    width: 16vw;
+    height: 4vh;
+    transition: 0.5s ease-out;
+}
+
+.corpo-cores .box-branco .texto h1 {
+    position: absolute;
+    font-size: 4vw;
+    font-weight: 900;
+    color: white;
+}
+
+.corpo-cores .box-branco .texto h3 {
+    margin-top: 17vh;
+    color: white;
+    width: 40;
+    font-size: 0.9vw;
+    font-weight: 400;
+}
+
+.corpo-cores .box-branco .imagem {
+    position: absolute;
+    display: flex;
+    margin-left: 50vw;
+    height: 45vh;
+}
+
+.corpo-cores .box-branco .imagem img {
+    width: 32vw;
+    margin-top: -0.3vh;
+    z-index: 1;
+    transition: 3s ease-in-out;
+}
+
+.corpo-cores .box-branco:hover .imagem img {
+    transform: translateX(-48vw);
+    transition: 10s ease-in-out;
+}
+
+.corpo-cores .box-branco .imagem .icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 45vh;
+    width: 30vw;
+    position: absolute;
+    z-index: 0;
+    font-size: 28vw;
+    margin-left: 0.1vw;
+    color: black;
+}
+
+.corpo-cores .box-branco .imagem .icone i{
+    animation: i-box 10s linear infinite;
+}
+
+
+
+
+.espacamento {
+    height: 10vh;
+}
