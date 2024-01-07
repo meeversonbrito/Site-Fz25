@@ -1,0 +1,137 @@
+.corpo-contatos {
+          display: flex;
+          width: 100%;
+          height: 80%;
+          margin-top: 10vh;
+          justify-content: center;
+}
+
+.corpo-contatos .form {
+          display: flex;
+          width: 80%;
+          align-items: center;
+}
+
+.corpo-contatos .form .imagem {
+          display: flex;
+          flex-direction: column;
+}
+
+.corpo-contatos .form .imagem .texto {
+          margin-left: 9vw;
+          display: flex;
+          flex-direction: column;
+          max-width: 27vw;
+}
+
+.corpo-contatos .form .imagem .texto h1 {
+          font-weight: 900;
+          color: blue;
+          font-size: 3vw;
+}
+
+.corpo-contatos .form .imagem .texto h3 {
+          font-size: 0.8vw;
+          font-weight: 300;
+          margin-top: -3vh;
+} 
+
+.corpo-contatos .form .imagem .img{
+          width: 40vw;
+          height: 50vh;
+          animation: animation-fazer 2s step-end  infinite;
+}
+
+
+@keyframes animation-fazer {
+          0%    {background-image: url("../media/a1.png"); background-size: 40vw;}
+          6.25% {background-image: url("../media/a2.png");}
+          12.5% {background-image: url("../media/a3.png");}
+          18.75%{background-image: url("../media/a4.png");}
+          25%   {background-image: url("../media/a5.png");}
+          31.25%{background-image: url("../media/a6.png");}
+          37.5% {background-image: url("../media/a7.png");}
+          43.75%{background-image: url("../media/a8.png");}
+          50%   {background-image: url("../media/a9.png");}
+          56.25%{background-image: url("../media/a10.png");}
+          62.5% {background-image: url("../media/a11.png");}
+          68.75%{background-image: url("../media/a12.png");}
+          75%   {background-image: url("../media/a13.png");}
+          81.25%{background-image: url("../media/a14.png");}
+          87.5% {background-image: url("../media/a15.png");}
+          93.75%{background-image: url("../media/a16.png");}
+}
+
+.corpo-contatos .form .formulario {
+          margin-left: 5vw;
+          display: flex;
+          justify-content: center;
+          width: 26vw;
+          height: 78vh;
+          border: 0.1vw solid blue;
+          border-radius: 1.5vw;
+          transition: 0.2s ease-in-out;
+}
+
+.corpo-contatos .form .formulario:hover {
+          transition: 0.5s ease-in-out;
+          box-shadow: 0 2vw 2vw rgb(205, 205, 205);
+          transform: scale(105%);
+}
+
+.corpo-contatos .form .formulario form {
+          display: flex;
+          flex-direction: column;
+          margin-top: 3.5vh;
+}
+
+.corpo-contatos .form .formulario form label {
+          font-size: 0.8vw;
+          font-weight: 500;
+}
+
+.corpo-contatos .form .formulario form input[type=text],  input[type=tel], input[type=email]{
+          font-family: 'Poppins';
+          height: 5vh;
+          background: none;
+          border-left: none;
+          border-right: none;
+          border-top: none;
+          border-bottom: 0.2vh solid blue;
+          width: 20vw;
+}
+
+.corpo-contatos .form .formulario form input[type=submit] {
+          position: absolute;
+          font-size: 0.8vw;
+          font-weight: 600;
+          background: none;
+          color: blue;
+          border: 0.1vw solid blue;
+          border-radius: 0.2vw;
+          width: 10vw;
+          height: 2vw;
+          margin-left: 5vw;
+          margin-top: 66vh;
+          transition: 0.5s ease-out;
+          letter-spacing: 0.1vw;
+}
+
+.corpo-contatos .form .formulario form input[type=submit]:hover {
+    background-color: blue;
+    font-weight: 700;
+    color: white;
+    font-size: 0.9vw;
+    transform: scale(110%);
+    transition: 0.5s ease-out;
+}
+
+.corpo-contatos .form .formulario form textarea {
+    font-family: 'Poppins';
+          width: 20vw;
+          height: 7vw;
+          border-color: blue;
+          border-top: none;
+          border-right: none;
+          border-left: none;
+}
